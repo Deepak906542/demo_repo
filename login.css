@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding:0;
+    margin: 0;
+    background: url(dd..png )no-repeat center center fixed;
+    font-family: 'Segoe UI', sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.d{
+    background: rgba(108, 86, 86, 0.7);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(123, 16, 37);
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    /* border: solid; */
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255 255 255 0.1);
+    color: #fff;
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: #ccc;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+input[type="submit"],
+input[type="reset"]
+{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 4px 4px;
+}
+input[type="submit"]{
+    background-color: red;
+    color: #fff;
+    font-size: 100%;
+    margin-top: 6px;
+}
+input[type="reset"]{
+    background-color: aqua;
+    color: #ab9d9d;
+    font-size: 100%;
+}
+input[type="reset"]:hover{
+    background-color: rgb(216, 100, 170);
+}
+input[type="submit"]:hover {
+    background-color:#2e669e;
+  }
